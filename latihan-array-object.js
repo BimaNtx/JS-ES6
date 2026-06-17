@@ -15,3 +15,10 @@ const siswa = {
 
 console.log(siswa.nama);
 console.log(siswa.kelas);
+
+// Gabung array dan onject 
+const laptop = {
+    brand: "Advan",
+    color: ["Black", "Blue", "White"],
+    tipe: "Advan Workplus"
+};
