@@ -20,3 +20,16 @@ baris 1
 baris 2
 `;
 console.log(teks);
+// 
+const siswa = [
+  {
+    nama: "Andi",
+    nilai: 90
+  },
+  {
+    nama: "Budi",
+    nilai: 80
+  }
+];
+const hasil = siswa.map(s => `${s.nama} - ${s.nilai}`);
+console.log(hasil);
